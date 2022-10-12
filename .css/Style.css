@@ -1,0 +1,421 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.eot');
+    src: url('../fonts/Montserrat-Regular.eot?#iefix') format('../fonts/embedded-opentype'),
+    url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+    url('../fonts/Montserrat-Regular.woff') format('woff'),
+    url('../fonts/Montserrat-Regular.ttf') format('truetype'),
+    url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;}
+
+@font-face {
+    font-family: 'vollkornregular';
+    src: url('../fonts/vollkorn.regular-webfont.eot');
+    src: url('../fonts/vollkorn.regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/vollkorn.regular-webfont.woff2') format('woff2'),
+    url('../fonts/vollkorn.regular-webfont.woff') format('woff'),
+    url('../fonts/vollkorn.regular-webfont.ttf') format('truetype'),
+    url('../fonts/vollkorn.regular-webfont.svg#vollkornregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 18px 0
+}
+header .container{
+    max-width: 940px;
+}
+
+.diflex{
+      display: flex; justify-content: space-between;
+}
+
+#navbar{
+    list-style: none;
+    padding: 23px 0 27px 0;
+}
+.navigation_item{
+    margin-left: 34px
+}
+footer .container{
+    text-align: center;
+    padding: 69px 0 69px 0;
+    max-width: 564px;
+    margin: auto;
+}
+header div nav ul li a{
+    font-family: 'Montserrat', sans-serif;
+    Font-style: normal;
+    Font-size: 12px;
+    Line-height: 20px;
+    color: #404040;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.5s;
+}
+/*header div nav ul li:last-of-type a{*/
+/*    color: green;*/
+/*}*/
+/*header div nav ul li:first-of-type a{*/
+/*    color: red ;*/
+/*}*/
+/*header div nav ul li:nth-child(2) a{*/
+/*color: yellow;*/
+/*}*/
+
+/*header nav ul li a:before{*/
+/*    content: "" ;*/
+/*    display: inline-block;*/
+/*    background-color: red;*/
+/*    border-radius: 50%;*/
+/*    height: 20px;*/
+/*    width: 20px;*/
+/*}*/
+/*header nav ul li a i{*/
+/*    font-size: 14px;*/
+/*    color: blue;*/
+/*}*/
+/*header nav ul li a:before{*/
+/*    content: "omg" ;*/
+/*    display: inline-block;*/
+/*    background-color: red;*/
+/*    border-radius: 50%;*/
+/*    height: 20px;*/
+/*    width: 20px;*/
+/*}*/
+
+header nav ul li a:hover {
+    transform: rotate(360deg);
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+
+
+
+
+#make_brands{
+    display:flex;
+    max-width: 960px;
+    margin: auto;
+}
+.brands{
+    max-width: 960px;
+    margin: auto;
+}
+.brands h2 {
+    text-align: center;
+    padding: 79px 0 28px 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 23px;
+    line-height: 36px;
+    color: #333333;
+    font-weight: lighter;
+}
+.brands h2:after{
+    display: block;
+    content: "";
+    margin: auto;
+    margin-top: 28px;
+    background: #00000017;
+    width: 80px;
+    height: 2px;
+}
+#articles{
+    display: flex;
+    padding: 73px 0 69px 0;
+}
+.max{
+    margin-right: 20px;
+}
+.backgrounds {
+    height: 219px;
+    width: 300px;
+    background-color: #F5F5F5;
+}
+.pictures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 0 0;
+}
+.centre{
+    text-align: center;
+}
+.titles{
+    padding: 38px 0 0 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+.paragraph{
+    padding: 20px 0 0 0;
+    font-family: 'vollkornregular';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #333333;
+}
+
+
+
+
+.background{
+    background-color: #F5F5F5;
+}
+.container893{
+    margin: auto;
+    text-align: center;
+    max-width: 893px;
+}
+#vector{
+    padding: 69px 0 0 0;
+}
+.JRarticles{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 62px;
+}
+.julius_rachel{
+    margin: auto;
+}
+#vertical{
+
+    border: none;
+    margin-top: 28px;
+    margin-bottom: 98px;
+    margin-right: 52px;
+    background: #0000000A;
+    width: 2px;
+    height: 215px;
+}
+.quotes{
+    font-family: 'vollkornregular';
+    Font-style: normal;
+    Font-size: 26px;
+    Line-height: 33px;
+    color: #333333;
+}
+.pics{
+    padding: 24px 0 0 0;
+}
+.names{
+    padding: 10px 0 98px 0;
+    font-family: 'Montserrat';
+    Font-style: normal;
+    Font-size: 14px;
+    Line-height: 20px;
+}
+
+
+
+
+#in_touch{
+    background-image: url("../.images/backgroundimage.svg");
+    background-size: cover;
+}
+.contein{
+    margin: auto;
+    text-align: center;
+    max-width: 960px;
+}
+.get_in{
+    padding: 79px 0 0 0;
+    color: #333333;
+    font-family: 'Montserrat';
+    Font-style: normal;
+    Font-size: 23px;
+    Line-height: 36px;
+}
+.get_in p:after{
+    display: block;
+    content: "";
+    margin: auto;
+    margin-top: 28px;
+    height: 2px;
+    width: 80px;
+    background: #00000017;
+    border: none;
+}
+#touch{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 73px;
+}
+.article_width{
+    width: 319px;
+}
+#locationpic{
+    padding: 13px 0 0 0;
+}
+#titles_location{
+    padding: 26px 0 0 0;
+    font-family: 'Montserrat';
+    Font-style: normal;
+    Font-size: 16px;
+    Line-height: 20px;
+    color: #333333;
+}
+#text_location{
+    padding: 22px 0 97px 0;
+    font-family: 'vollkornregular';
+    Font-style: normal;
+    Font-size: 17px;
+    Line-height: 22px;
+    color: #212121;
+}
+.mail_heart_pic{
+    padding: 20px 0 0 0;
+}
+.titles_mail_heart{
+    padding: 34px 0 0 0;
+    font-family: 'Montserrat';
+    Font-style: normal;
+    Font-size: 16px;
+    Line-height: 20px;
+    color: #333333;
+}
+#text_mail1{
+    padding: 20px 0 0 0;
+    font-family: 'vollkornregular';
+    Font-style: normal;
+    Font-size: 17px;
+    Line-height: 22px;
+    color: #212121;
+}
+#text_mail2{
+    padding: 22px 0 75px 0;
+    font-family: 'vollkornregular';
+    Font-style: normal;
+    Font-size: 17px;
+    Line-height: 22px;
+    color: #212121;
+}
+.socnetlist{
+    list-style: none;
+}
+.socnetlist li:first-of-type{
+    padding: 19px 0 0 0;
+    font-family: 'vollkornregular';
+    Font-style: normal;
+    Font-size: 17px;
+    Line-height: 20px;
+    text-align: Left;
+    color: #212121;
+}
+.socnetlist li:nth-child(2){
+    padding: 11px 0 0 0;
+    font-family: 'vollkornregular';
+    Font-style: normal;
+    Font-size: 17px;
+    Line-height: 20px;
+    text-align: Left;
+    color: #212121;
+}
+.socnetlist li:last-of-type {
+    padding: 11px 0 0 0;
+    font-family: 'vollkornregular';
+    Font-style: normal;
+    Font-size: 17px;
+    Line-height: 20px;
+    text-align: Left;
+    color: #212121;
+}
+.socnetlist li i{
+    font-size: 14px;
+    padding: 0 9px 0 0px;
+    margin-left: 109px;
+}
+
+
+
+
+
+
+
+.container{
+    max-width: 940px;
+    margin: auto;
+}
+#footer{
+    background-color: #000000;
+}
+.lables_footer{
+    display:none;
+}
+#name{
+    box-sizing: border-box;
+    background-color: #FFFFFF2E;
+    border: none;
+    padding: 18px 0 17px 31px;
+    font-family: 'vollkornregular';
+    Font-style: Italic;
+    Font-size: 17px;
+    Line-height: 22px;
+    width: 100%;
+}
+#email{
+    font-family: 'vollkornregular';
+    font-style: Italic;
+    font-size: 17px;
+    line-height: 22px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #FFFFFF33;
+    border: none;
+    padding: 18px 0 17px 31px;
+}
+#budget{
+    box-sizing: border-box;
+    background-color: #FFFFFF2E;
+    border: none;
+    padding: 18px 0 17px 31px;
+    font-family: 'vollkornregular';
+    Font-style: Italic;
+    Font-size: 17px;
+    Line-height: 22px;
+    width: 100%;
+}
+#description {
+    font-family: 'vollkornregular';
+    font-style: Italic;
+    font-size: 17px;
+    line-height: 22px;
+    resize: none;
+    width: 100%;
+    box-sizing: border-box; background-color: #FFFFFF33; border: none;
+    padding: 17px 0 88px 31px
+}
+footer div form div button{
+    color: #8BCAC3;
+    padding: 15px 60px;
+    font-family: 'vollkornregular';
+    font-style: Italic;
+    font-size: 17px;
+    line-height: 22px;
+    border: solid 1px #7EC4BD;
+    border-bottom: solid 2px #7EC4BD;
+    background-color: transparent
+}
+#all_right_reserved{
+    padding: 14px 0 0 0;
+    color: #FFFFFF66
+}
+#down1{
+    padding: 22px 0 0 0
+}
+#down2{
+    padding: 37px 0 0 0;
+}
