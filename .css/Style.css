@@ -220,6 +220,15 @@ header nav ul {
 }
 
 
+.backgrounds{
+    margin: auto;
+}
+.slick-dots{
+    bottom: -10px;
+}
+
+
+
 
 
 #in_touch{
